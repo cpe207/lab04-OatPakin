@@ -1,5 +1,10 @@
 function arrayStringify(a) {
-  /* Your code here */
+  let l = "";
+  for(let i=0;i<a.length;i++){
+  l+=a[i];
+  }
+  return l;
+  
 }
 
 const c1 = [1, 2, 3];
